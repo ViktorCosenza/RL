@@ -2,6 +2,9 @@ import scipy.signal
 import toolz
 from torch import nn
 
+def standarize(xs):
+    return (xs - xs.mean()) / xs.std()
+
 def discount_cumsum(x, discount):
     """
     magic from rllab for computing discounted cumulative sums of vectors.
