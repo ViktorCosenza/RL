@@ -1,0 +1,9 @@
+gym
+pyglet
+jupyterlab
+matplotlib
+seaborn
+numpy
+pandas
+toolz
+tqdm
